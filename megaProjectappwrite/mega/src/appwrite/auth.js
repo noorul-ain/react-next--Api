@@ -28,7 +28,7 @@ export class AuthService {
         }
     }
 
-    async currentUser() {
+    async getcurrentUser() {
         try {
             const response = await this.account.get();
             return response;
